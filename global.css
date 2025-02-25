@@ -1,0 +1,264 @@
+body
+{
+    background-color: rgb(32, 32, 32);
+}
+
+.header
+{   
+    padding: 20px 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    background-image: linear-gradient(to top, rgb(255, 255, 255), rgb(255, 255, 255));
+    z-index: 9999;
+     
+}
+
+.menu a.homebutton:hover, a.homebutton:active {color: rgb(237, 217, 83)} 
+
+.menu a.aboutbutton:hover, a.aboutbutton:active {color: rgb(237, 217, 83)} 
+
+.sitetitle
+{
+    font-weight: bold;
+    padding: 0 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.sitelogo
+{
+    display: flex;
+    width: -10%;
+    height: -10%;
+
+}
+
+.sitelogopic
+{
+    animation-name: logoanim;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes logoanim
+{
+    0%
+    {
+        transform: scaleX(1);
+    }
+    50%
+    {
+        transform: scaleX(1.2);
+    }
+    100%
+    {
+        transform: scaleX(1);
+    }
+}
+
+.menu
+{
+    color: gray;
+    font-weight: bold;
+    font-family: 'Trebuchet MS';
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.hireme
+{
+    background-color: rgb(44, 154, 214);
+    padding: 10px 20px;
+    color: white;
+}
+
+.herocontainer
+{
+    padding: 185px 100px 100px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.tigerprofile
+{
+    border-radius: 7%;
+}
+
+.minitigerprofile
+{
+    position: absolute;
+    left: 70px;
+    top: 170px;
+    border-radius: 30%;
+}
+
+.heropics
+{
+    width: 40%;
+}
+
+.herotexts
+{
+    width: 60%;
+}
+
+.mainherotxt
+{
+    font-size: 150px;
+    color: azure;
+}
+
+.subherotxt
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    color: rgb(26, 255, 217);
+}
+
+
+.resumebtn,
+.contactbtn
+{
+    padding: 20px 35px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS';
+    font-size: 170%;
+    
+}
+
+.resumebtn
+{
+    background-color: rgb(44, 154, 214);
+    margin: 20px 20px;
+    color: white;
+}
+
+.contactbtn
+{
+    background-color: rgb(164, 164, 164);
+    margin: 20px 20px;
+    color: rgb(89, 89, 89);
+}
+
+.about {
+    display: flex;
+    margin: 20px 20px;
+    background-color: rgb(56, 59, 65);
+    padding: 200px 50px 20px 50px;
+}
+
+.abtmetitle
+{
+    position: relative;
+    color: white;
+    font-family: 'Trebuchet MS';
+    font-size: 350%;
+    top: -185px;
+    left: -25px;
+}
+
+.aboutmetext {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-items: center;
+    color: white;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+}
+
+.abtname
+{
+    position: relative;
+    top: -100px;
+    left: -150px;
+}
+
+.abtinfo
+{
+    width: 450px;
+    position: relative;
+    font-size: 120%;
+    top: -50px;
+    left:  -150px;
+    word-wrap: break-word;
+}
+
+.aboutmeprofpic
+{
+    width: auto;
+}
+
+.abtmeprofpic
+{
+    position: relative;
+    border-radius: 10%;
+    padding: 10px;
+    top: -70px;
+    left: 100px;
+}
+
+.contact
+{
+    font-family: 'Trebuchet MS';
+    font-size: 170%;
+    background-color: rgb(43, 56, 87);
+    margin: 20px 20px;
+    color: rgb(255, 255, 255);
+    padding: 130px 25px 130px 25px;
+}
+
+.contactinfo
+{
+
+    align-items: center;
+    justify-content: space-between;  
+}
+
+.contacttitle
+{
+    position: relative;
+    top: -110px;
+}
+
+.contactsubtitle
+{
+    position: relative;
+    top: -110px;
+    color: rgb(163, 172, 180);
+}
+
+.contactpic
+{
+    align-items: center;
+}
+
+.contactinfopic
+{
+    border-radius: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 35px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
